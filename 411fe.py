@@ -81,7 +81,7 @@ def scan_file(path):
     return tokens
 
 
-# Function To Read The Tokens Line By Line
+# Group The List Of Tokens Line-By-Line
 def group_by_line(tokens):
     groups = {}
     for t in tokens:
