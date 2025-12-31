@@ -35,9 +35,6 @@ def scan_file(path):
                 if line[pos : pos + 2] == "//":
                     tokens.append((line_num, "COMMENT", line[pos:]))
                     break
-                elif line[pos : pos + 2] == "||":
-                    tokens.append((line_num, "COMMENT", line[pos:]))
-                    break
 
                 # register
                 if c == "r":
