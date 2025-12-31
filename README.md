@@ -42,4 +42,5 @@ Invalid flag combinations will display an error message followed by the help tex
 Additional Notes:
 - The scanner is fully character-by-character (no regular expressions used).
 - The parser continues after errors and reports all syntax issues found.
-- Tested on Linux (grading environment).
+- Tested on Linux.
+
